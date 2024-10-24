@@ -1,0 +1,15 @@
+isim_soyisim = input("İsminizi ve soyisminizi giriniz: ")
+
+sesli_harfler = "aeıioöuüAEIİOÖUÜ"
+sesli_sayisi = 0
+sessiz_sayisi = 0
+
+for harf in isim_soyisim:
+    if harf.isalpha():  # harf olup olmadığını kontol ettirdim
+        if harf in sesli_harfler:
+            sesli_sayisi += 1
+        else:
+            sessiz_sayisi += 1
+
+print("Sesli harf sayısı:", sesli_sayisi)
+print("Sessiz harf sayısı:", sessiz_sayisi)
