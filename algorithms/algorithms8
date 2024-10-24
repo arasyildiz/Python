@@ -1,0 +1,9 @@
+fibonacci_sayilari = [0, 1]
+a, b = 0, 1
+
+while b < 1000:
+    a, b = b, a + b
+    if b < 1000:
+        fibonacci_sayilari.append(b)
+
+print("0 ile 1000 arasındaki Fibonacci sayıları:", fibonacci_sayilari)
