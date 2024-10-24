@@ -1,0 +1,9 @@
+n = int(input("Bir sayı giriniz: "))
+
+tek_sayi_toplami = 0
+
+for sayi in range(1, n+1):
+    if sayi % 2 != 0:
+        tek_sayi_toplami += sayi
+
+print("1'den", n, "sayısına kadar olan tek sayıların toplamı:", tek_sayi_toplami)
