@@ -1,0 +1,8 @@
+a = float(input("a değerini giriniz: "))
+b = float(input("b değerini giriniz: "))
+c = float(input("c değerini giriniz: "))
+
+# formülü: Delta = b^2 - 4ac
+delta = b**2 - 4*a*c
+
+print("Diskriminant (Delta) değeri:", delta)
