@@ -1,0 +1,7 @@
+sayi1 = float(input("Birinci sayıyı giriniz: "))
+sayi2 = float(input("İkinci sayıyı giriniz: "))
+sayi3 = float(input("Üçüncü sayıyı giriniz: "))
+
+en_buyuk = max(sayi1, sayi2, sayi3)
+
+print("En büyük sayı:", en_buyuk)
