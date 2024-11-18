@@ -71,8 +71,6 @@ for futbolcu in takim2:
 
 print(f"\nTakım 1 Toplam Puan: {toplam_puan_takim1}")
 print(f"Takım 2 Toplam Puan: {toplam_puan_takim2}")
-print(takim1)
-print(takim2)
 print("--------------------- Takım 1 ---------------------")
 for futbolcu in takim1:
     print(futbolcu.ad)
